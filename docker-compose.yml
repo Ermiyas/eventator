@@ -6,9 +6,9 @@ services:
         container_name: eve_mysql
         environment:
             MYSQL_ROOT_PASSWORD: root
-            MYSQL_DATABASE: eve
+            MYSQL_DATABASE: test
             MYSQL_USER: root
-            MYSQL_PASSWORD: root
+            MYSQL_PASSWORD: 
         ports:
             - 3307:3306
         volumes:
